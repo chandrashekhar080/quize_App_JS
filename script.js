@@ -1,4 +1,4 @@
-// Sample quiz data (replace this with your actual quiz data)
+// quiz data
 const quizData = [
     {
         question: "What is the capital of France?",
@@ -18,7 +18,7 @@ const quizData = [
             { text: "Saturn", correct: false }
         ]
     },
-   /* {
+   {
         question: "What is the largest planet in our solar system?",
         answers: [
             { text: "Venus", correct: false },
@@ -107,7 +107,7 @@ const quizData = [
             { text: "F. Scott Fitzgerald", correct: false },
             { text: "J.K. Rowling", correct: false }
         ]
-    }  */
+    } 
     // Add more quiz questions here...
 ];
 
@@ -200,4 +200,4 @@ function endQuiz() {
         win.classList.remove("hidden");
 
     })
-}
+};
